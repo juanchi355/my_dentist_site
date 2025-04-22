@@ -1,0 +1,63 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  #inicio {
+    background-color: #ffffff;
+  }
+  
+  #servicios {
+    background-color: #e9ecef;
+  }
+  
+  #contacto {
+    background-color: #ffffff;
+  }
+  
+  /* Pie de página */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+  }
